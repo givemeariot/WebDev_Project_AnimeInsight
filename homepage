@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Anime Insight</title>
+            <link rel = "stylesheet" type = "text/css" href = "style.css"/>
+        </head>
+            <body>
+                <div id="top">
+                <table class="table1">
+                    <tr>
+                        <td><a href = "index.html"> <img src = "logo.png" alt="Homepage" width="200" height="150"/></a></td>
+                        <td><a href = "about.html"><p style=background-color:lightgoldenrodyellow>About</p></a></td>
+                        <td><a href = "contact.html"><p style=background-color:lightgoldenrodyellow>Contact</p></a></td>
+                    </tr>
+                </table>
+                </div>
+                </br>
+                <div id="center">
+                <center><table class="table2">
+                <tr>
+                    <td><img src = "pic-1.webp" alt="anime 1" width="400" height="300"/></td>
+                    <td><img src = "pic-2.gif" alt="anime 2" width="400" height="300"/></td>
+                    <td><img src = "pic-3.gif" alt="anime 3" width="400" height="300"/></td>
+                </tr>
+                </table></center>
+                <h2>Anime Insight is your ultimate source for anime information, featuring detailed guides on popular series like Naruto, anime history, and character profiles. Designed for fans and newcomers alike, explore the vibrant world of anime with our easy-to-navigate, visually engaging website</h2>
+                </br>
+                <h3>Key Features:</h3>
+                <ol>
+                    <li><p>Home Page:</p></li>
+                    <ul>
+                        <li><p><b>Overview of Anime:</b> A brief introduction to anime and what visitors can expect from the site.</p></li>
+                        <li><p><b>Featured of Anime:</b> Highlight a popular anime series (like Naruto) with a vibrant image and a short description.</p></li>
+                    </ul>
+                    <li><p>About Page:</p></li>
+                    <ul>
+                        <li><p><b>Introduction to Anime Insight:</b> A brief overview of the website’s purpose and mission, highlighting its dedication to celebrating the world of anime.</p></li>
+                        <li><p><b>Founder’s Story:</b> A short biography of Sofia Martinez, detailing her passion for anime and what inspired her to create the website.</p></li>
+                    </ul>
+                    <li><p>Contact Page:</p></li>
+                    <ul>
+                        <li><p><b>Contact Form:</b> A simple form where users can reach out with questions or feedback. Include fields for name, email, and message.</p></li>
+                        <li><p><b>FAQ Section:</b> Address common questions about anime or the website itself.</p></li>
+                    </ul>
+                </ol>
+                </br> 
+                <center><iframe width="560" height="315" src="https://www.youtube.com/embed/lWhy4zlGl7s?si=98D7mGYkiiDBA3Wr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+                </div>
+                </br> 
+                <div id="bottom">
+                <table class="table3">
+                    <tr>
+                        <td><a href = "https://www.tudublin.ie/study/undergraduate/courses/computer-science-international-tu858/"> <img src = "facebook.png" alt = "facebook" width="50" height="50"/></a></td>
+                        <td><a href = "https://www.tudublin.ie/study/undergraduate/courses/computer-science-international-tu858/"> <img src = "instagram.jpg" alt = "instagram" width="50" height="50"/></a></td>
+                        <td><a href = "https://www.tudublin.ie/study/undergraduate/courses/computer-science-international-tu858/"> <img src = "twitter.png" alt = "twitter" width="50" height="50"/></a></td>
+                    </tr>
+                </table>
+                </div>
+            </body>
+    </html>
