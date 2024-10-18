@@ -3,7 +3,7 @@ body{
 }
 
 #top {
-    background-image: url('background-1.avif');
+    background-image: url('../media/background-1.avif');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -11,18 +11,19 @@ body{
 
 #center {
     background-color: rgba(0,0,0,0.4);
-    background-image: url('background-2.avif');
+    background-image: url('../media/background-2.avif');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     text-align: justify;
     color: white;
     font-weight: bold;
+    line-height: 2;
 }
 
 #bottom {
     background-color: rgba(0,0,0,0.4);
-    background-image: url('background-3.avif');
+    background-image: url('../media/background-3.avif');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -35,11 +36,11 @@ body{
     background-color: rgba(0,0,0,0.4);
     color: white;
     border-collapse : separate;
-    border-spacing: 100px;
+    border-spacing: 50px;
     width: 100%;
     text-align: center;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
@@ -50,6 +51,7 @@ body{
 
 }
 .table3 {
+    background-color: rgba(0,0,0,0.4);
     border-collapse: separate;
     border-spacing: 20px;
     padding: 1%;
@@ -60,13 +62,15 @@ body{
 .table4{
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 80%;
+    width: 60%;
+    margin: 0 auto;
 }
 
 .table4 td{
     text-align: center;
     border: 5px solid;
-    padding: 30px;
+    padding: 10px;
+    font-size: medium;
 }
 
 .table4 tr:hover {
@@ -74,28 +78,50 @@ body{
 }
 
 #about {
-    background-color: rgba(0,0,0,0.4);
-    background-image: url('naruto.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: #FFE4E1;
     text-align: justify;
-    color: white;
-    text-shadow: 2px 2px 4px black;
+    color: gray;
     font-weight: bold;
     font-size: xx-large;
+    width: 85%;
+    margin: 0 auto;
+    padding: 30px;
+    line-height: 2;
 }
 
 #contact {
-    background-image: url('naruto2.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: rgba(0,0,0,0.4);
+    background-color: #FFDEAD;
     text-align: justify;
-    color:#FFD700;
-    text-shadow: 2px 2px 4px black;
+    color:#708090;
     font-weight: bold;
     font-size: xx-large;
+    width: 85%;
+    margin: 0 auto;
+    padding: 30px;
 }
 
+.h1 {
+    display: flex;
+    justify-content: space-between; /* Push the image to the right */
+    align-items: center;
+    margin-bottom: 20px; /* Space below the header section */
+}
+
+.image {
+    width: auto;
+    height: auto;
+    margin-left: 20px; /* Add some space between the h1 and image */
+}
+
+.h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image_2 {
+    width: 500px;
+    height: auto;
+    margin-left: 20px;
+}
