@@ -1,0 +1,389 @@
+body{
+    background: linear-gradient(to bottom, #2e1037, #5a2070, #9c4e97, #d08c9b, #f5b592, #f9c382);
+}
+
+#top {
+    background-image: url('../media/background-1.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#center {
+    background-color: rgba(0,0,0,0.4);
+    background-image: url('../media/background-2.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: justify;
+    color: white;
+    font-weight: bold;
+    line-height: 2;
+}
+
+#bottom {
+    background-color: rgba(0,0,0,0.4);
+    background-image: url('../media/background-3.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 1%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.table1 {
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    border-collapse : separate;
+    border-spacing: 50px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.table2 {
+    border-collapse: separate;
+    border-spacing: 70px;
+
+}
+
+.table3 {
+    background-color: rgba(0,0,0,0.4);
+    border-collapse: separate;
+    border-spacing: 20px;
+    padding: 1%;
+    width: 100%;
+}
+
+.username {
+    color: #C0C0C0; 
+    font-size: 30px; 
+    font-weight: bold;
+    text-align: left;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.table4{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.table4 td{
+    text-align: center;
+    border: 5px solid;
+    padding: 10px;
+    font-size: medium;
+}
+
+.table4 tr:hover { 
+    background-color: coral;
+    font-weight: bold;
+}
+
+#about {
+    background: linear-gradient(135deg, #FFE4E1, #E0FFFF, #B0E0E6);
+    text-align: justify;
+    color: gray;
+    font-weight: bold;
+    font-size: xx-large;
+    width: 85%;
+    margin: 0 auto;
+    padding: 30px;
+    line-height: 2;
+}
+
+#contact {
+    background: linear-gradient(135deg, #FFDEAD, #E0D1FF, #D6EAF8);
+    text-align: justify;
+    color:#708090;
+    font-weight: bold;
+    font-size: xx-large;
+    width: 85%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#form { 
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    width: 85%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#product {
+    background: linear-gradient(135deg, #ffddc1, #b5ead7);
+    text-align: justify;
+    color:#648c11;
+    font-weight: bold;
+    font-size: xx-large;
+    width: 85%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.center { /* form */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    width: 100%;
+}
+
+#container { /* form */
+    background-color: #F8F8FF;
+    padding: 30px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 1000px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Poppins', sans-serif;
+}
+
+#container h1{ /* form */
+    font-size: 40px;
+    color:#6495ED;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#container h1::before{ /* form */
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 3px;
+    background: #9b59b6;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+
+#reservation { /* form */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.row { /* form */
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.group { /* form */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.group label { /* form */
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+.group input, select, textarea { /* form */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.row1 { /* form */
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.group1 label { /* form */
+    display: inline-block; /* Without taking extra spaces */
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+#additional-info { /* form */
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    resize: vertical;
+}
+
+.payment { /* form */
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#submit { /* form */
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#submit:hover { /* form */
+    transform: scale(1.03);
+    background: linear-gradient(135deg, #9b59b6, #71b7e6);
+    color: whitesmoke;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.h1 { /* about */
+    display: flex;
+    justify-content: space-between; /* Push the image to the right */
+    align-items: center;
+    margin-bottom: 20px; /* Space below the header section */
+}
+
+.image { /* about */
+    width: auto;
+    height: auto;
+    margin-left: 20px; /* Add some space between the h1 and image */
+}
+
+.h2 { /* about */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image_2 { /* about */
+    width: 500px;
+    height: auto;
+    margin-left: 20px;
+}
+  
+.shop { /* product */
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('shop-background.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 50px 20px;
+}
+  
+.shop h1 { /* product */
+    font-size: 2.5em;
+}
+  
+.shop button { /* product */
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.shop button:hover { /* product */
+    transform: scale(1.03);
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+  
+.categories, .products { /* product */
+    padding: 20px;
+}
+  
+.categories h2, .products h2 { /* product */
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    position: relative;
+}
+
+.categories h2::before, .products h2::before { /* product */
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 8px;
+    background: linear-gradient(135deg, #b2ec5d, #cae00d);
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+  
+.category-grid { /* product */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product-grid { /* product */
+    display: grid;
+    gap: 30px;
+}
+  
+.product-group { /*product */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two items per row */
+    gap: 20px;
+}
+
+.category-card, .product-card { /* product */
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+  
+.category-card img { /* product */
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-card img { /* product */
+    width: 70%;
+    border-radius: 8px;
+}
+  
+.category-card:hover { /* product */
+    transform: scale(1.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.product-card:hover { /* product */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-card button:hover { /* product */
+    transform: scale(1.03);
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+  

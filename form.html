@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+    <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Reservation Form</title>
+            <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+        </head>
+
+            <body>
+                <div id= "form">
+                    <table class="table1">
+                        <tr>
+                            <td><a href = "../index.html"> <img src = "../media/logo.png" alt="Homepage" width="200" height="150"/></a></td>
+                            <td><a href = "about.html"><p style=background-color:lightgoldenrodyellow>About</p></a></td>
+                            <td><a href = "contact.html"><p style=background-color:lightgoldenrodyellow>Contact</p></a></td>
+                            <td><a href = "form.html"><p style=background-color:gold>Form</p></a></td>
+                            <td><a href = "product.html"><p style=background-color:lightgoldenrodyellow>Product</p></a></td>                            
+                        </tr>
+                    </table>
+
+                <div class="center">
+                    <div id="container">
+                    <center><h1>Reservation Form</h1></center>
+                    
+                    <form id="reservation">
+                    <div class="row">
+                        <div class="group">
+                        <label for="name">Name: <span style="color: red">*</span></label>
+                        <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="group">
+                        <label for="gender">Gender: </label>
+                        <input type="gender" id="gender" name="gender">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="group">
+                        <label for="email">E-mail: <span style="color: red">*</span></label>
+                        <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="group">
+                        <label for="phone number">Phone Number: </span></label>
+                        <input type="text" id="phone number" name="phone number">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="group">
+                        <label for="reservation type">Reservation Type: <span style="color: red">*</span></label>
+                        <select id="reservation type" name="reservation type" required>
+                            <option value="">Select An Option</option>
+                            <option value="event">Event</option>
+                            <option value="merchandise">Merchandise</option>
+                            <option value="workshop">Workshop</option>
+                        </select>
+                        </div>
+
+                        <div class="group">
+                        <label for="date">Preferred Date: <span style="color: red">*</span></label>
+                        <input type="date" id="date" name="date" required>
+                        </div>
+                    </div>
+
+                    <div class="row1">
+                        <div class="group1">
+                        <label for="additional-info">Additional Information: </label>
+                        <textarea id="additional-info" name="additional-info" placeholder="Enter details here"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row1">
+                        <div class="group1">
+                        <label>Payment Method: <span style="color: red">*</span></label>
+                            <div class="payment">
+                            <input type="radio" id="credit" name="credit" value="credit" required>
+                            <label for="credit">Debit/Credit Card</label>
+                            <input type="radio" id="paypal" name="paypal" value="paypal" required>
+                            <label for="paypal">PayPal</label>
+                            </div>
+                        </div>
+                    </div>
+
+                        <button type="submit" id="submit">Submit</button>
+                    </form>
+                    </div>
+                </div>
+
+                    </br>
+                    </br>
+
+                    <table class="table3">
+                        <tr>
+                            <td class="username">@AnimeInsight</td>
+                            <td style="width: 100%;"></td>
+                            <td class="icons">
+                                <a href = "https://www.tudublin.ie/study/undergraduate/courses/computer-science-international-tu858/"> <img src = "../media/facebook.png" alt = "facebook" width="50" height="50"/></a>
+                                <a href = "https://www.tudublin.ie/study/undergraduate/courses/computer-science-international-tu858/"> <img src = "../media/instagram.jpg" alt = "instagram" width="50" height="50"/></a>
+                                <a href = "https://www.tudublin.ie/study/undergraduate/courses/computer-science-international-tu858/"> <img src = "../media/twitter.png" alt = "twitter" width="50" height="50"/></a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                
+            </body>
+    
+    </html>
