@@ -23,9 +23,9 @@
 
                 <div class="center">
                     <div id="container">
-                    <center><h1>Reservation Form</h1></center>
+                    <center><h1>Contact Form</h1></center>
                     
-                    <form id="reservation">
+                    <form id="contact_form">
                     <div class="row">
                         <div class="group">
                         <label for="name">Name: <span style="color: red">*</span></label>
@@ -45,25 +45,20 @@
                         </div>
 
                         <div class="group">
-                        <label for="phone number">Phone Number: </span></label>
-                        <input type="text" id="phone number" name="phone number">
+                        <label for="phone number">Phone Number: <span style="color: red">*</span></label>
+                        <input type="text" id="phone number" name="phone number" required>
                         </div>
                     </div>
 
-                    <div class="row">
-                        <div class="group">
-                        <label for="reservation type">Reservation Type: <span style="color: red">*</span></label>
-                        <select id="reservation type" name="reservation type" required>
+                    <div class="row1">
+                        <div class="group1">
+                        <label for="contact-type">Preferred Contact Method: <span style="color: red">*</span></label>
+                        <select id="contact-type" name="contact-type" required>
                             <option value="">Select An Option</option>
-                            <option value="event">Event</option>
-                            <option value="merchandise">Merchandise</option>
-                            <option value="workshop">Workshop</option>
+                            <option value="email">Email</option>
+                            <option value="phone">Phone</option>
+                            <option value="none">None</option>
                         </select>
-                        </div>
-
-                        <div class="group">
-                        <label for="date">Preferred Date: <span style="color: red">*</span></label>
-                        <input type="date" id="date" name="date" required>
                         </div>
                     </div>
 
@@ -71,18 +66,6 @@
                         <div class="group1">
                         <label for="additional-info">Additional Information: </label>
                         <textarea id="additional-info" name="additional-info" placeholder="Enter details here"></textarea>
-                        </div>
-                    </div>
-
-                    <div class="row1">
-                        <div class="group1">
-                        <label>Payment Method: <span style="color: red">*</span></label>
-                            <div class="payment">
-                            <input type="radio" id="credit" name="credit" value="credit" required>
-                            <label for="credit">Debit/Credit Card</label>
-                            <input type="radio" id="paypal" name="paypal" value="paypal" required>
-                            <label for="paypal">PayPal</label>
-                            </div>
                         </div>
                     </div>
 
@@ -106,6 +89,8 @@
                         </tr>
                     </table>
                 </div>
+
+                <script src = "../js/main.js"></script>
                 
             </body>
     
